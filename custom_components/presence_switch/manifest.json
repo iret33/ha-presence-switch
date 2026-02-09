@@ -1,0 +1,11 @@
+{
+  "domain": "presence_switch",
+  "name": "Presence Switch",
+  "codeowners": ["@iret33"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/iret33/ha-presence-switch",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}

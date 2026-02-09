@@ -1,0 +1,23 @@
+force_enable:
+  name: Force Enable
+  description: Force enable the switch regardless of presence state.
+  target:
+    entity:
+      integration: presence_switch
+      domain: switch
+
+force_disable:
+  name: Force Disable
+  description: Force disable the switch regardless of presence state.
+  target:
+    entity:
+      integration: presence_switch
+      domain: switch
+
+reset_auto:
+  name: Reset Auto-off
+  description: Reset the auto-off timer if switch is on and no one is home.
+  target:
+    entity:
+      integration: presence_switch
+      domain: switch
