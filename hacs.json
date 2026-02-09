@@ -1,0 +1,9 @@
+{
+  "name": "Presence Switch",
+  "content_in_root": false,
+  "filename": "presence_switch.zip",
+  "country": ["ALL"],
+  "homeassistant": "2023.1.0",
+  "render_readme": true,
+  "iot_class": "Local Polling"
+}
